@@ -1,0 +1,38 @@
+Table Clients {
+  id int [primary key, auto_increment]
+  name varchar
+  email varchar [unique]
+  phone varchar
+}
+
+Table Projects {
+  id int [primary key, auto_increment]
+  name varchar
+  client_id int [ref: > Clients.id]
+}
+
+Table Meetings {
+  id int [primary key, auto_increment]
+  date datetime
+  project_id int [ref: > Projects.id]
+}
+
+Table Contacts {
+  id int [primary key, auto_increment]
+  name varchar
+  email varchar [unique]
+}
+
+Table Users {
+  id int [primary key, auto_increment]
+  name varchar
+  email varchar [unique]
+  password varchar
+  role varchar
+}
+
+Table MeetingContacts {
+  meeting_id int [ref: > Meetings.id]
+  contact_id int [ref: > Contacts.id]
+  primary key (meeting_id, contact_id)
+}
