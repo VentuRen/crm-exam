@@ -25,8 +25,8 @@
 
 ### 📌 **1. Clonar el repositorio**
 ```sh
-git clone https://github.com/tu-usuario/crm-system.git
-cd crm-system
+git clone [https://github.com/VentuRen/crm-exam](https://github.com/VentuRen/crm-exam).git
+cd crm-exam
 ```
 
 ### 📌 **2. Configuración del Backend**
@@ -99,7 +99,7 @@ module.exports = {
 ```sh
 npm run dev
 ```
-🔗 **Aplicación disponible en:** `http://localhost:5173`
+
 
 ---
 
@@ -155,18 +155,17 @@ npm test -- --coverage
 
 
 ## 👨‍💻 **Autor**
-- 🚀 **Tu Nombre**
-- GitHub: [github.com/tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)
+- 🚀 **Rene Ventura**
+- GitHub: [github.com/tu-usuario](https://github.com/VentuRen)
+- LinkedIn: [linkedin.com/in/rene-ventura-zamora](https://linkedin.com/in/rene-ventura-zamora)
 
 ---
 
-## 🎯 **Mejoras Futuras**
+### 🎯 **Mejoras Posibles**
 ✅ Implementación de WebSockets para notificaciones en tiempo real.  
 ✅ Mejorar la UI/UX con más interactividad.  
 ✅ Agregar soporte multi-idioma.  
-
+✅ **Relacionar las reuniones (Meetings) con los contactos y clientes** para mejorar la gestión de participantes.  
+✅ **Implementar funcionalidades de roles** para restringir acciones según el tipo de usuario (admin, user).  
+✅ **Generar un detalle de reuniones y proyectos**, permitiendo visualizar información detallada de cada uno.  
 ---
-
-¡Listo! 🎉 Este README **documenta todo el proyecto** y ayuda a otros desarrolladores a **instalar, configurar y usar** la aplicación correctamente. 🚀🔥  
-Si necesitas ajustes o mejoras, dime. 🎯
